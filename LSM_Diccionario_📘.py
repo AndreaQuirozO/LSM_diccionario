@@ -35,7 +35,7 @@ with header:
 
 with dic:
     st.write('')
-    palabra = dic.selectbox('Palabra:', options=all_signs, index=28)
+    palabra = dic.selectbox('Palabra:', options=all_signs, index=0)
     info = signs[signs['Palabra(s)'] == palabra]
     word = info.iloc[0][0]
     tema = info.iloc[0][1]
